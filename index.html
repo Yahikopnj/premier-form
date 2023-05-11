@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mon premier formulair</h1>
+
+    <form method="post" action="insertForm.php">
+        <div>
+        <label for="nom">Nom</label>
+        <input type="text" name="nom" id="nom">
+        </div>
+                <div>
+        <label for="prenom">Prenom</label>
+        <input type="text" name="prenom" id="prenom">
+        </div>
+                <div>
+        <label for="email">EMail</label>
+        <input type="email" name="email" id="email">
+        </div>
+                <div>
+        <label for="mdp">mot de passe</label>
+        <input type="password" name="mdp" id="mdp">
+        </div>
+                <div>
+        <label for="date">Date</label>
+        <input type="date" name="date" id="date">
+        </div>
+        <div>
+            <input type="checkbox" name="rgpd" id="rgpd" required>
+            <label for="rgpd">RGPD Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab laudantium voluptatem consequuntur doloremque in! Nobis odit autem atque hic</label>
+        </div>
+        <input type="submit" value="envoyez">
+    </form>
+</body>
+</html>
